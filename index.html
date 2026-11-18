@@ -1,0 +1,244 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>A Birthday Surprise ❤️</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- BACKGROUND MUSIC -->
+<audio id="bgMusic" loop preload="auto">
+    <source src="music/Ishqa Ve_.mp3" type="audio/mpeg">
+    Your browser does not support audio playback.
+</audio>
+
+
+<div class="stars"></div>
+<div class="moon"></div>
+<canvas id="sky"></canvas>
+<div class="lights" id="lights"></div>
+
+<!-- PAGE 1 -->
+
+<section class="page active" id="page1">
+
+<h1>Happy Birthday ❤️</h1>
+
+<div class="highlight">
+My Love ❤ 🌹
+</div>
+
+<p>
+Tonight is not an ordinary night.<br>
+The moon is shining, the stars are glowing,<br>
+and something special is waiting for you.
+</p>
+
+<div class="rose">🌹 💗 🌹</div>
+
+<button onclick="nextPage(2)">
+Open Your Surprise 🎁 →
+</button>
+
+</section>
+
+<!-- PAGE 2 -->
+
+<section class="page" id="page2">
+
+<div class="card">
+
+<h2>🎈 A Little Surprise For You 🎈</h2>
+
+<div class="rose">🌹 ❤️ 🌸 💗 🌹</div>
+
+<p>
+If I could collect every star in the universe,
+I would write your happiness across the sky.
+
+If I could collect every rose in the world,
+I would give them all to you.
+
+You deserve beautiful moments,
+endless smiles and a lifetime of happiness.
+</p>
+
+<p style="margin-top:20px">
+Every little detail here carries a beautiful wish for you. ❤️
+</p>
+
+</div>
+
+<button class="back" onclick="nextPage(1)">← Previous</button>
+<button onclick="nextPage(3)">Continue My Surprise ❤️ →</button>
+
+</section>
+
+<!-- PAGE 3 -->
+
+<section class="page" id="page3">
+
+<div class="card">
+
+<h2>❤️ More Than Just Love</h2>
+
+<p>
+I don't want to understand only your smile.
+
+I want to understand your silence,
+your emotions, your fears and your dreams.
+
+I want to listen when you need someone,
+support you when things get difficult,
+respect your decisions,
+and celebrate every little success of yours.
+
+I don't want you to hide your feelings
+because you are afraid of being misunderstood.
+
+I want to be someone with whom you can
+be completely yourself.
+
+I want to keep learning how to understand you better.
+</p>
+
+</div>
+
+<div class="card">
+
+<h2>🌹 My Promise</h2>
+
+<p>
+I cannot promise that every day will be perfect.
+
+But I can promise to communicate honestly,
+respect your individuality,
+value your feelings,
+and never take your presence for granted.
+
+You deserve genuine love and understanding. ❤️
+</p>
+
+</div>
+
+<button class="back" onclick="nextPage(2)">← Previous</button>
+<button onclick="nextPage(4)">One More Surprise 🎆 →</button>
+
+</section>
+
+<!-- PAGE 4 -->
+
+<section class="page" id="page4">
+
+<h1>Let The Celebration Begin! 🎆</h1>
+
+<div class="cake">🎂</div>
+
+<div class="card">
+
+<h2>Make A Beautiful Wish! 💖</h2>
+
+<p>
+Close your eyes for a moment.
+
+Think about your biggest dream.
+
+Make a wish and believe in yourself.
+
+May this new year of your life bring
+success, peace, happiness and endless love.
+
+Tonight, the stars are celebrating you! ✨
+</p>
+
+<button onclick="celebrate()">
+Launch Fireworks 🎆
+</button>
+
+</div>
+
+<div class="rose">🌹 🎈 ❤️ 🌹</div>
+
+<button class="back" onclick="nextPage(3)">← Previous</button>
+<button onclick="nextPage(5)">Open Your Final Surprise 💌 →</button>
+
+</section>
+
+<!-- PAGE 5 -->
+
+<section class="page" id="page5">
+
+<h1>A Special Message For You 💌</h1>
+
+<div class="card">
+
+<h2>To My Favourite Person ❤️</h2>
+
+<p>
+I may not always have the perfect words
+to express what I feel.
+
+But I want you to know that
+your happiness matters to me,
+your feelings matter to me,
+and your dreams matter to me.
+
+I don't promise to be a perfect person.
+
+But I promise to keep learning,
+to communicate honestly,
+to respect your individuality,
+and to understand you better every day.
+
+I want to celebrate your happiest moments
+and support you through your difficult ones.
+
+I never want you to feel that
+you have to be someone else to be loved.
+
+Always be yourself.
+Keep smiling.
+Keep growing.
+Keep shining.
+
+And remember...
+
+If I had one wish tonight,
+I would wish for your happiness
+to last longer than the stars in the sky.
+
+Happy Birthday, My Beautiful Girl! ❤️🌹
+
+With endless love,
+Someone who wants to see you happy. 💗
+</p>
+
+</div>
+
+<div class="rose">🌹 ❤️ 🌹</div>
+
+<button onclick="celebrate()">
+Celebrate Again! 🎆
+</button>
+
+<button class="back" onclick="nextPage(4)">
+← Previous
+</button>
+
+<footer>
+Made with endless love ❤️<br>
+For someone who deserves the whole universe. 🌙<br>
+Under the same moon, beneath the same stars. ✨
+</footer>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
